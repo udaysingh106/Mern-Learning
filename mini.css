@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f9ff;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background-color: #0d1b2a;
+    text-align: center;
+    color: white;
+    padding: 20px 10px;
+}
+
+nav{
+   background: #0d1b2a;
+   display: flex;
+   justify-content: center;
+   gap:20px; 
+   padding: 10px 0;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00b4d8;
+}
+
+main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 10px auto;
+}
+
+article{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+article h1{
+    color:#1e3c72;
+}
+
+figure{
+    display:flex;
+    justify-content:center;
+}
+
+article img{
+    width:100%;
+    max-width:500px;
+    border-radius:12px;
+}
+
+aside{
+    background:#e3f2fd;
+    padding:20px;
+    border-left:6px solid #1e3c72;
+}
+
+aside ul{
+    margin-top:10px;
+    padding-left:20px;
+}
+
+section{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+form{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+form input,
+form select,
+form textarea{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus{
+    border-color:#1e3c72;
+    outline:none;
+}
+
+button{
+    background:#1e3c72;
+    color:#fff;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#5c1616;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th, td{
+    padding:12px;
+    text-align:center;
+    border:1px solid #ddd;
+}
+
+thead{
+    background:#1e3c72;
+    color:#fff;
+}
+
+tbody tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+footer{
+    background:#0d1b2a;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+footer a{
+    color:#00b4d8;
+    text-decoration:none;
+}
