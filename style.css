@@ -1,0 +1,16 @@
+#box1{
+border: 2px solid black;
+padding: 20px;
+height: 700px;
+width: 500px;
+justify-items: center;
+}
+
+span{
+
+    display: inline;
+}
+
+#id{
+    border-radius: 30px;
+}
